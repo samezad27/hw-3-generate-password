@@ -20,6 +20,10 @@ var lowercase = uppercase.map(letter => letter.toLowerCase())
 var numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 var special = ["!", "@", "#", "$", "%", "^", "&", "*", "(", ")", "-", "_", "=", "+", "[", "]", "{", "}", "|", ";", ":", "'", ",", ".", "<", ">", "/", "?", "~", "`"]
 
+function getrandomInt(max) {
+  return Math.ceil(Math.random() * max)
+}
+
 
 // Generate password Function
 function generatePassword(){
@@ -60,4 +64,13 @@ function generatePassword(){
   if (useSpecialChars) {
     potentialChars = potentialChars.concat(special)
   }
+
+  // create the password length
+
+  var password = ''
+  for (var i=0; i < passwordLength; i++) {
+    password = password + potentialChars[getrandomInt(potentialChars.length)]
+  }
+
+  return password
 }
