@@ -1,5 +1,5 @@
 # hw-3-generate-password
-This is my first ever JS project. Limited fucntionality but still cool.
+This is my first ever JS project. Limited functionality but still cool.
 - Live URL: https://samezad27.github.io/hw-3-generate-password/
 - Git URL: https://github.com/samezad27/hw-3-generate-password
 
