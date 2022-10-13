@@ -40,6 +40,7 @@ function generatePassword(){
   // step 2 ask if the user wants to use uppercase 
   var useUppercase = confirm('Would you like to include uppercase letters?')
 
+
   // step 3 ask if the user wants to use lowercase
   var useLowercase = confirm('Would you like to include lowercase letters?')
 
@@ -49,6 +50,11 @@ function generatePassword(){
   // step 5 ask if the user wants to use special characters
 
   var useSpecialChars = confirm('Would you like to include special characters?')
+
+  if(useUppercase === false && useLowercase === false && useNumbers === false && useSpecialChars === false) {
+    alert('Please choose at least one unique character type! Number, Special Character, Capitlized Letter')
+    return generatePassword();
+  }
 
   // test if things log ---> console.log(passwordLength, useUppercase, useLowercase, useSpecialChars)
 
