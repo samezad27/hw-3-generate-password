@@ -1,7 +1,7 @@
 # hw-3-generate-password
 This is version one of my portfolio. It isn't dynamic but the structure is there.
-- Live URL: https://samezad27.github.io/Hw-2-basic-portfolio/
-- Git URL: https://github.com/samezad27/Hw-2-basic-portfolio
+- Live URL: https://samezad27.github.io/hw-3-generate-password/
+- Git URL: https://github.com/samezad27/hw-3-generate-password
 
 ![](https://ibb.co/HxM9f2x][img]https://i.ibb.co/b2yGM32/Password-Generator.png)
 
