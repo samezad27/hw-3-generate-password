@@ -1,5 +1,5 @@
 # hw-3-generate-password
-This is version one of my portfolio. It isn't dynamic but the structure is there.
+This is my first ever JS project. Limited fucntionality but still cool.
 - Live URL: https://samezad27.github.io/hw-3-generate-password/
 - Git URL: https://github.com/samezad27/hw-3-generate-password
 
@@ -7,7 +7,7 @@ This is version one of my portfolio. It isn't dynamic but the structure is there
 
 ## Javascript
 - Wrote clean js code that follows basic structure and variable guidelines
-- Created functionality that met all of the criteria of the project
+- Created functionality that met the criteria of the project
 
 
 ### User Story
