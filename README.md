@@ -3,7 +3,7 @@ This is my first ever JS project. Limited functionality but still cool.
 - Live URL: https://samezad27.github.io/hw-3-generate-password/
 - Git URL: https://github.com/samezad27/hw-3-generate-password
 
-![](https://ibb.co/HxM9f2x][img]https://i.ibb.co/b2yGM32/Password-Generator.png)
+![](https://i.ibb.co/b2yGM32/Password-Generator.png)
 
 ## Javascript
 - Wrote clean js code that follows basic structure and variable guidelines
