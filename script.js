@@ -29,7 +29,7 @@ function getrandomInt(max) {
 function generatePassword(){
 
   // step 1 ask how many characters the user wants the password to be
-  var passwordLength = prompt('How many characters woudl you like your password to be? (8-128)', '12') 
+  var passwordLength = prompt('How many characters would you like your password to be? (8-128)', '12') 
   
   if (passwordLength > 128 || passwordLength < 8) {
     alert('Invalid password length, must be between 8 and 128!')
